@@ -1,0 +1,27 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {      
+      "resourceTags": {
+        "value": {
+          "AppName": "ArmDemo",
+          "CostCenter": "General",
+          "CreatedBy": "atung",
+          "CreatedDate": "[utcNow('yyyy-MM-dd')]",
+          "Description": "",
+          "Environment": "Dev",
+          "Owner": "atung",
+          "OwnerGroup": "TechnologyPlanning",
+          "Project": "Yes",
+          "Region": "CC",
+          "Requester": "atung"
+        }
+      },
+      "projectName": {
+          "value": "armtemp2" 
+      },
+      "storageSKU":{
+        "value": "Standard_LRS"
+      }
+    }
+  }
